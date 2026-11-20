@@ -8,7 +8,7 @@ configured [Vial-QMK](https://github.com/vial-kb/vial-qmk) checkout, then run
 from the checkout root:
 
 ```sh
-qmk compile -kb macropad -km vial
+qmk flash -kb macropad -km vial -bl dfu-util-split-left
 ```
 
 The original checkout was based on Vial-QMK commit
