@@ -1,4 +1,4 @@
-# leighplank
+# macropad
 
 Keyboard definition and Vial keymap for Vial-QMK. These files are not a
 standalone firmware tree.
@@ -8,7 +8,7 @@ configured [Vial-QMK](https://github.com/vial-kb/vial-qmk) checkout, then run
 from the checkout root:
 
 ```sh
-qmk compile -kb leighplank -km vial
+qmk compile -kb macropad -km vial
 ```
 
 The original checkout was based on Vial-QMK commit
